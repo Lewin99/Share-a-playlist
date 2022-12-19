@@ -12,9 +12,9 @@ function Playlist() {
   return (
     <div className='input-div'>
     <input className='input' type='text' value={value} onChange={Handlevalue} placeholder="Enter a song name" />
-    <Button >Add</Button>
+    <Button className='add-button'>Add</Button>
     <div>
-     <Button variant='outline-danger'>Submit</Button>
+     <Button className='submit button' variant='outline-danger'>Submit</Button>
     </div>
       </div>
   )
