@@ -18,9 +18,9 @@ function App() {
       </Navbar.Brand>
      </Navbar>
      <center>
-     <Container className='body-part'>
+     <Container className='cont'>
       <br/><br/>
-     <Row >
+     <Row className='body-part'>
       <Col>
       <div className='body-inputs'>
       <Playlist />
