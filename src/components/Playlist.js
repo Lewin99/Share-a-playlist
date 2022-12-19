@@ -6,7 +6,6 @@ function Playlist() {
 
     const Handlevalue=(e)=>{
      setvalue(e.target.value)
-     alert(value)
     }
   return (
     <div className='input-div'>
