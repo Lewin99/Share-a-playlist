@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button,Col,Container,Navbar, Row } from 'react-bootstrap';
+import { BsFillCaretRightSquareFill } from "react-icons/bs";
+import Playlist from './components/Playlist';
 
 function App() {
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Navbar className='nav-bar' bg="dark">
+      <Navbar.Brand >
+        <div className='brand-logo'>
+        <BsFillCaretRightSquareFill className='logo'/>
+        <h3 className='brand-name'>𝓛𝓶𝓾𝓼𝓲𝓬</h3>
+        </div>
+      </Navbar.Brand>
+     </Navbar>
+     <center>
+     <Container>
+     <Row className='body-part'>
+      <Col>
+      <div className='body-inputs'>
+      <Playlist />
+      </div>
+      </Col>
+     </Row>
+    </Container>
+    </center>
     </div>
+    
   );
 }
 
