@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button,Col,Container,Navbar, Row } from 'react-bootstrap';
+import { Navbar} from 'react-bootstrap';
 import { BsFillCaretRightSquareFill } from "react-icons/bs";
 import Playlist from './components/Playlist';
 
@@ -18,16 +18,14 @@ function App() {
       </Navbar.Brand>
      </Navbar>
      <center>
-     <Container className='cont'>
-      <br/><br/>
-     <Row className='body-part'>
-      <Col>
+      <br/>
+      <div className='body-part'>
+        <br></br>
+      <div className='header'> <h3 className='title'>ADD Fav Playlist</h3></div>
       <div className='body-inputs'>
       <Playlist />
       </div>
-      </Col>
-     </Row>
-    </Container>
+     </div>
     </center>
     </div>
     
