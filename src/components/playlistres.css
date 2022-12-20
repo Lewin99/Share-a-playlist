@@ -19,7 +19,7 @@
 }
 .buttons{
     display: flex;
-    margin-left: 255px;
+    justify-items: end;
 }
 
 .delete{
@@ -27,4 +27,8 @@
 }
 .update{
     margin-left: 10px;
+}
+
+.itms{
+    width: 300px;
 }

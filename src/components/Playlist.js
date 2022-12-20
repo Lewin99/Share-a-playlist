@@ -13,6 +13,7 @@ function Playlist() {
 
     const handleadd=()=>{
      setitemlist([...list,value])
+     setvalue("")
     }
   return (
     
