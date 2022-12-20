@@ -1,0 +1,30 @@
+.result{
+    background-color: none;
+    color: aliceblue;
+    
+}
+.result-min{
+    display: flex;
+   justify-content: space-around;
+   margin: 10px;
+   width:400px;
+   height: 38px;
+   padding: 3px;
+   border-radius: 2px;
+   border: 1px solid orangered;
+}
+
+.p{
+    margin: 0;
+}
+.buttons{
+    display: flex;
+    margin-left: 255px;
+}
+
+.delete{
+    margin-left: 10px;
+}
+.update{
+    margin-left: 10px;
+}
