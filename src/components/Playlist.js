@@ -12,7 +12,7 @@ function Playlist() {
     }
 
     const handleadd=()=>{
-     setitemlist([...list,value])
+     setitemlist([...list,{item:value,key: Date.now()}])
      setvalue("")
     }
   return (

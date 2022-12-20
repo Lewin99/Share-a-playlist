@@ -24,9 +24,11 @@
 
 .delete{
     margin-left: 10px;
+    cursor: pointer;
 }
 .update{
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .itms{
