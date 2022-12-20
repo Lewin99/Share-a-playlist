@@ -12,11 +12,11 @@ function Playlistres(props) {
     {props.items.map(all=>{
          return <div className='result-min'>
             <div className='itms'><p>{all}</p></div>
-            
+
          <div className='buttons'>
         <div className='check'> <BsFillCheckCircleFill size="1.5em" color=" orangered" /></div>
-         <div className='delete'><AiFillDelete  size="1.5em"/></div>
          <div className='update'><FiEdit size="1.5em"/></div>
+         <div className='delete'><AiFillDelete  size="1.5em"/></div>
          
          </div>
             </div>
