@@ -6,6 +6,7 @@ import Playlistres from './Playlistres';
 function Playlist() {
     const[value,setvalue]=useState(null)
     const[list,setitemlist]=useState([])
+    
 
     const Handlevalue=(e)=>{
      setvalue(e.target.value)
@@ -22,12 +23,8 @@ function Playlist() {
     <input className='input' type='text' value={value} onChange={Handlevalue} placeholder="Enter a song name" />
     <button className='add-button' onClick={handleadd}>Add</button>
     <div className='added'>
-    <Playlistres items={list} />
+    <Playlistres items={list} setitemlistmeto={setitemlist} />
     </div>
-    
-    </div>
-    <div className='submit-button-div'>
-     <button className='submit-button' >Submit</button>
     </div>
       </div>
   )
